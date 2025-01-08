@@ -29,7 +29,7 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 - Font size: 15px
 
 ### Font
-
+[
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
 
