@@ -32,12 +32,17 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 8px 0px 0px 8px;
+    box-shadow: 0px 20px 60px hsl(217, 19%, 35%);
 }
 
 h1 {
     color: hsl(217, 19%, 35%);
     margin-left: 60px;
     font-weight: 700;
+}
+
+p {
+    color: hsl(214, 17%, 51%) ;
 }
 
 #texto {
@@ -62,10 +67,11 @@ left: 10px;
     top: -30px;
     left: 210px;
     color: hsl(217, 19%, 35%);
-    background-color:hsl(214, 17%, 51%) ;
-    width: 24px;
-    height: 24px;
-    border-radius: 10px;
+     background-color: hsl(212, 23%, 69%) ;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+   
   
    
 }
