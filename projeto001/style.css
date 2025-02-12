@@ -111,7 +111,7 @@ margin-left: 40px;
   font-weight: 400;
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.75);  
-  margin-bottom: 96px;
+  margin-bottom: 100px;
   margin-top: 30px;
   margin-left: 40px;
   margin-right: 20px;
@@ -183,14 +183,12 @@ margin-left: 40px;
     color: white;
 }
 
-#extra{
+#extra, #extra2, #extra3{
     display: none;
 
 }
 
-.aparecer{
-    display: block !important;
-}
+
 
 @media(min-width:320px) and (max-width:500px){
    #container {
@@ -261,11 +259,13 @@ margin-left: 40px;
         flex-direction: row;
         align-items: center;
         width: 80%;
+        
     }
 
     #Sedan {
         height: 450px;
         border-radius: 7px 0px 0px 7px;
+        height: 550px;
     }
 
     #Sedan > h1 {
@@ -282,7 +282,7 @@ margin-left: 40px;
     }
 
     #Suv {
-        height: 450px;
+        height: 550px;
     }
 
     #Suv > h1 {
@@ -297,7 +297,7 @@ margin-left: 40px;
     }
 
     #carro {
-        height: 450px;
+        height: 550px;
         border-radius: 0px 7px 7px 0px;
     }
 
@@ -310,6 +310,11 @@ margin-left: 40px;
         font-weight: 700;
         margin-bottom: 30px;
     }
+
+    #extra1 {
+        margin-bottom: 0px;
+    }
+
 
     #btn1 {
         margin-left: 50px;
