@@ -80,19 +80,19 @@ margin-left: 40px;
 #carro >h1 {
     font-family: 'Big Shoulders Display';
     font-weight: 800;
-    color: white;
+    color: hsl(0, 0%, 100%);
     margin-left: 40px;
 }
 
-#Sedan >p {
+ #Sedan > p {
  font-family: 'Lexend Deca';
  font-weight: 400;
- font-size: 15px;
+ font-size: 16px;
  color: hsla(0, 0%, 100%, 0.75);
  margin-top: 40px;
  margin-left: 40px;
  margin-right: 20px;
- margin-bottom: 83px;
+
 }
 
 #Suv >p {
@@ -102,16 +102,16 @@ margin-left: 40px;
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 20px;
-    margin-bottom: 73px;
+    margin-bottom: 70px;
  
 }
 
-#carro >p {
+.txt3, #carro > p {
   font-family: 'Lexend Deca';
   font-weight: 400;
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.75);  
-  margin-bottom: 100px;
+  margin-bottom: 95px;
   margin-top: 30px;
   margin-left: 40px;
   margin-right: 20px;
@@ -132,6 +132,12 @@ margin-left: 40px;
     box-shadow: 150px;
     cursor: pointer;
     transition: 0.4s linear;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
 }
 
 #btn1:hover{
@@ -155,6 +161,7 @@ margin-left: 40px;
     box-shadow: 0px;
     cursor: pointer;
     transition: 0.4s linear;
+    margin-top: 0px;
 }
 
 #btn2:hover{
@@ -183,10 +190,7 @@ margin-left: 40px;
     color: white;
 }
 
-#extra, #extra2, #extra3{
-    display: none;
 
-}
 
 
 
@@ -210,7 +214,7 @@ margin-left: 40px;
 
     #Sedan > p{
        margin-top: 20px;
-       margin-bottom: 20px;
+       margin-bottom: 60px;
     } 
     .btn1{
         
@@ -252,7 +256,13 @@ margin-left: 40px;
         margin-bottom: 10px;
     }
 
-   
+    #extra, #extra2, #extra3{
+        display: none;
+    
+    }
+    
+
+
 }
 @media (min-width:768px){
     #container{
@@ -276,8 +286,8 @@ margin-left: 40px;
     #Sedan > p {
         font-size: 16px;
         font-weight: 700;
-        margin-bottom: 11px;
-        margin-top: 26px;
+        margin-bottom: 60px;
+        margin-top: 36px;
 
     }
 
@@ -290,11 +300,9 @@ margin-left: 40px;
 
     }
 
-    #Suv > p {
-        font-size: 16px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
+  
+
+  
 
     #carro {
         height: 550px;
@@ -305,16 +313,21 @@ margin-left: 40px;
         font-size: 40px;
     }
 
-    #carro > p {
+    .txt3{
         font-size: 16px;
         font-weight: 700;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
 
-    #extra1 {
-        margin-bottom: 0px;
-    }
+    
 
+    
+
+    #extra, #extra2, #extra3 {
+        display: none ;
+    }
+    
+   
 
     #btn1 {
         margin-left: 50px;
@@ -328,26 +341,12 @@ margin-left: 40px;
         margin-left: 50px;
     }
 
+    .texto {
+        margin-bottom: 70px;
+    }
 
 }
 
-@media(min-width:1024px){
-    #Sedan > p {
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
 
-    #Suv > p {
-        margin-bottom: 40px;
-    }
 
-    #carro > p {
-        margin-bottom: 20px;
-    }
-}
 
-@media (min-width:1440px){
-    #Suv > p {
-        margin-bottom: 20px;
-    }
-}
